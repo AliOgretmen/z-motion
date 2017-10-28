@@ -1,0 +1,41 @@
+
+#carouselExampleIndicators img {
+    height: 300px;
+}
+
+.containerBio {
+    display: flex;
+    margin: 30px
+}
+
+.imgaside img{
+
+    width: 200px;
+    margin: 20px;
+ 
+}
+     
+
+.navbar-nav {
+    margin-left: 80%;
+    
+    
+}
+
+h1, h2, h4 {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: aqua;
+    
+   
+    
+}
+.face, .twitt, .insta{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+@media (min-width: 200px) {
+
+}
