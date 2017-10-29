@@ -62,9 +62,14 @@ footer > p{
     height: 30vw;
     
 }
-@media (min-width 100px){
+@media (min-width:100px){
     .aboutimg img{
         display: none;
+    }; 
+}
+@media (min-width:800px){
+    .aboutimg img{
+        display:block;
     }; 
 }
 
