@@ -1,9 +1,9 @@
 
 #carouselExampleIndicators img {
-    height: 300px;
+    height: 400px;
 }
 
-.containerBio {
+.containerBio, .containerAbout {
     display: flex;
     margin: 30px
 }
@@ -19,23 +19,40 @@
 .navbar-nav {
     margin-left: 80%;
     
-    
+}
+
+.carousel-inner h3{
+    color: #ff9900;
 }
 
 h1, h2, h4 {
+    
+    color: #ffd699 !important;
     text-align: center;
-    text-decoration: overline;
-    text-decoration-color: aqua;
-    
+    font-family: 'Indie Flower', cursive !important;
+    text-shadow: 1px 2px #e68a00;
    
-    
 }
-.face, .twitt, .insta{
+.face, .twitt, .insta, .devi{
     margin: 20px;
     width: 60px;
     height: 60px;
 }
-
-@media (min-width: 200px) {
-
+.containerAbout img{
+     margin: 20px;
+    width: 100px;
+    height: 100px;
+    
 }
+footer{
+    width: 90%;
+    margin-left: 40px;
+}
+#map{
+    width: 100vw;
+    height: 30vw;
+    
+}
+
+
+
