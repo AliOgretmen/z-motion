@@ -29,7 +29,9 @@
 .carousel-inner h3{
     color: #ff9900;
 }
-
+h1, h2{
+    margin-top: 20px;
+}
 h1, h2, h4 {
     
     color:  #55552b !important;
